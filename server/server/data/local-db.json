@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "id": "jCOAl42IniNp-6Ll_ScNY",
+      "name": "Aarav Admin",
+      "email": "admin@example.com",
+      "passwordHash": "$2a$10$YXIeRWi33edvEXhwKjv.F.H.bKxIloHpRBYMDlYltKLwkY6X9ZP0W",
+      "role": "admin",
+      "createdAt": "2026-04-30T13:27:59.538Z"
+    },
+    {
+      "id": "t-2_RMamxhLPVsRgPnHHd",
+      "name": "Meera Member",
+      "email": "member@example.com",
+      "passwordHash": "$2a$10$lwXreG3JqGKTUqvheAF6ouQNlvmGMALRWMc51YWPw8hU1V3onOsca",
+      "role": "member",
+      "createdAt": "2026-04-30T13:27:59.610Z"
+    },
+    {
+      "id": "J3v9dO_oW14Lg1Ayih9aD",
+      "name": "harsh jha",
+      "email": "harsh@example.com",
+      "passwordHash": "$2a$10$Sn.qt8g9szj.SpEZSZri4uNEleqyujBZLDfj8BROS7RnCIIjrxp6.",
+      "role": "admin",
+      "createdAt": "2026-04-30T13:42:52.982Z"
+    },
+    {
+      "id": "n-mEkI6GV3BZlTcwxywon",
+      "name": "shagun",
+      "email": "shagun@example.com",
+      "passwordHash": "$2a$10$vG4eh2mThfAkMY2ZbeSyKe39qgqmv1kSXZiYgZjsWiTrOGzMEYwwi",
+      "role": "member",
+      "createdAt": "2026-04-30T13:49:08.467Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "370Im6gI7AU4GXOLStzDx",
+      "name": "Website Launch",
+      "description": "Coordinate launch tasks for the new marketing site.",
+      "status": "active",
+      "members": [
+        "jCOAl42IniNp-6Ll_ScNY",
+        "t-2_RMamxhLPVsRgPnHHd"
+      ],
+      "createdBy": "jCOAl42IniNp-6Ll_ScNY",
+      "createdAt": "2026-04-30T13:27:59.610Z",
+      "updatedAt": "2026-04-30T13:27:59.610Z"
+    },
+    {
+      "id": "guPMa9OCXZARtgdcbKRlD",
+      "name": "chutiyapa",
+      "description": "aaj chutiyapa krte hain. ao tum bhi karo",
+      "status": "active",
+      "members": [
+        "jCOAl42IniNp-6Ll_ScNY",
+        "J3v9dO_oW14Lg1Ayih9aD"
+      ],
+      "createdBy": "jCOAl42IniNp-6Ll_ScNY",
+      "updatedAt": "2026-05-01T09:07:25.041Z",
+      "createdAt": "2026-04-30T13:34:33.975Z"
+    },
+    {
+      "id": "Bqkl2LFdn1RBCHgLtiu5J",
+      "name": "sds",
+      "description": "jwefeb dn",
+      "status": "active",
+      "members": [
+        "jCOAl42IniNp-6Ll_ScNY",
+        "n-mEkI6GV3BZlTcwxywon",
+        "J3v9dO_oW14Lg1Ayih9aD"
+      ],
+      "createdBy": "jCOAl42IniNp-6Ll_ScNY",
+      "updatedAt": "2026-05-01T09:12:18.606Z",
+      "createdAt": "2026-05-01T08:26:19.618Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "E7ftD7re-lDlFENgHCveN",
+      "title": "Prepare QA checklist",
+      "description": "Cover mobile, auth, dashboard, and form validation paths.",
+      "status": "done",
+      "priority": "high",
+      "dueDate": "2026-05-01T13:27:59.610Z",
+      "project": "370Im6gI7AU4GXOLStzDx",
+      "assignedTo": "t-2_RMamxhLPVsRgPnHHd",
+      "createdBy": "jCOAl42IniNp-6Ll_ScNY",
+      "createdAt": "2026-04-30T13:27:59.610Z",
+      "updatedAt": "2026-04-30T13:56:01.801Z"
+    },
+    {
+      "id": "x6cLu43VqyTzg-wJsoP-O",
+      "title": "saasaas",
+      "description": "saaasa",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-05-02",
+      "project": "guPMa9OCXZARtgdcbKRlD",
+      "assignedTo": "J3v9dO_oW14Lg1Ayih9aD",
+      "createdBy": "jCOAl42IniNp-6Ll_ScNY",
+      "updatedAt": "2026-05-01T09:07:25.051Z",
+      "createdAt": "2026-05-01T09:07:25.051Z"
+    },
+    {
+      "id": "brOVyeefZFmEd2SuhQVj4",
+      "title": "sda",
+      "description": "assasa",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-05-02",
+      "project": "Bqkl2LFdn1RBCHgLtiu5J",
+      "assignedTo": "J3v9dO_oW14Lg1Ayih9aD",
+      "createdBy": "jCOAl42IniNp-6Ll_ScNY",
+      "updatedAt": "2026-05-01T09:12:18.614Z",
+      "createdAt": "2026-05-01T09:12:18.614Z"
+    },
+    {
+      "id": "S9iBdVPMbwKYKJI8Wkzq_",
+      "title": "ddd",
+      "description": "a",
+      "status": "todo",
+      "priority": "medium",
+      "dueDate": "2026-05-02",
+      "project": "370Im6gI7AU4GXOLStzDx",
+      "assignedTo": "t-2_RMamxhLPVsRgPnHHd",
+      "createdBy": "jCOAl42IniNp-6Ll_ScNY",
+      "updatedAt": "2026-05-01T09:15:49.153Z",
+      "createdAt": "2026-05-01T09:15:49.153Z"
+    }
+  ]
+}
