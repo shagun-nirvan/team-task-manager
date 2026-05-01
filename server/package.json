@@ -4,6 +4,7 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
+    "build": "echo 'No build required for Node.js server'",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
